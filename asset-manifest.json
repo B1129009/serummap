@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/serummap/static/css/main.f20412e2.css",
-    "main.js": "/serummap/static/js/main.e896df07.js",
+    "main.js": "/serummap/static/js/main.9e22436b.js",
     "static/js/453.b3452e76.chunk.js": "/serummap/static/js/453.b3452e76.chunk.js",
     "index.html": "/serummap/index.html",
     "main.f20412e2.css.map": "/serummap/static/css/main.f20412e2.css.map",
-    "main.e896df07.js.map": "/serummap/static/js/main.e896df07.js.map",
+    "main.9e22436b.js.map": "/serummap/static/js/main.9e22436b.js.map",
     "453.b3452e76.chunk.js.map": "/serummap/static/js/453.b3452e76.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f20412e2.css",
-    "static/js/main.e896df07.js"
+    "static/js/main.9e22436b.js"
   ]
 }
