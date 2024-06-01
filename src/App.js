@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import'./App.css'
+import SeurmMapTitle from './ptitle';
+import SerumMapFooter from './pfooter';
+import SerumMapHeader from './pheader';
+import SnakeFeature from './snakefeature';
+import ImageListWithTitle from './imagelistwithtitle';
+import ParentComponent from './parentcomponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div>
+        <SerumMapHeader />
+      </div>
+      <div>
+        <SeurmMapTitle />
+      </div>
+      <div>
+        <SnakeFeature />
+      </div>
+      <div className="containerStyle">
+        <ImageListWithTitle />
+      </div>
+      <div>
+        <ParentComponent/>
+      </div>
+      <div>
+        <SerumMapFooter />
+      </div>
     </div>
   );
 }
