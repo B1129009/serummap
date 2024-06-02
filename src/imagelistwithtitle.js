@@ -60,7 +60,7 @@ const ImageListWithTitle = () => {
         console.error('Error fetching snake data:', error);
       });
     // Fetch color options from backend when component mounts
-    Axios.get("http://192.168.137.196:3001/snakeColors")
+    Axios.get("https://8220-59-125-186-126.ngrok-free.app/snakeColors")
       .then((response) => {
         setColorOptions(response.data.map(color => color['蛇的顏色']));
       })
