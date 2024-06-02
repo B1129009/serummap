@@ -52,7 +52,7 @@ const ImageListWithTitle = () => {
 
   useEffect(() => {
     // Fetch snake data from backend
-    Axios.get("http://localhost:3001/snakes")
+    Axios.get("https://8220-59-125-186-126.ngrok-free.app/snakes")
       .then((response) => {
         setSnakeList(response.data);
       })
